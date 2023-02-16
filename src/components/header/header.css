@@ -1,4 +1,18 @@
-header {
+h1 {
     background-color: black;
     color: white;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menu-icon {
+    display: inline;
+    position: relative;
+    top: 4px;
+    right: -110rem;
+}
+
+.menu-icon:hover {
+    opacity: 0.6;
 }
