@@ -10,12 +10,13 @@ const Header = () => {
   const handleClick = () => setClick (!click);
 
   return (
-    <h1>
-      Name
+    <h1 className='header'>
+      Ydavi
       <div className='menu-icon' onClick={handleClick}>
         <FaBars className='FaBars'/>
       </div>
     </h1>
+    
   )
 }
 

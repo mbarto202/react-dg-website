@@ -1,0 +1,14 @@
+.title {
+    padding-top: 6rem;
+}
+
+.options {
+    color: white;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: 3rem;
+}
+
+.options:hover {
+    opacity: 0.6;
+}
