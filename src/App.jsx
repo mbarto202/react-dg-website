@@ -21,11 +21,11 @@ const App = () => {
         <>
             <Header />
             <Title />
-            <Nav />
             <About />
             <Library />
             <Games />
             <Footer />
+            <Nav />
         </>
     )
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import './library.css'
 
 const Library = () => {
   return (
-    <div>Library</div>
+    <section id='library'>
+      <h1 className='section_title'>Resources</h1>
+    </section>
   )
 }
 
