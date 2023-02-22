@@ -1,5 +1,16 @@
-.section_title {
+h1.section_title {
     color: white;
     text-align: center;
-    font-size:xx-large
+    font-size:3rem;
+}
+
+.about_content {
+    margin-left: 13rem;
+    margin-top: 10rem;;
+    font-size: x-large;
+}
+
+.about_content p {
+    margin-top: 20px;
+    width: 80rem;
 }
