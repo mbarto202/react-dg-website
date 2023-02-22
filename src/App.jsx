@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Title from './components/title/Title'
-import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Library from './components/library/Library'
 import Games from './components/games/Games'
@@ -25,7 +24,6 @@ const App = () => {
             <Library />
             <Games />
             <Footer />
-            <Nav />
         </>
     )
 }
