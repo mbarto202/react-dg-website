@@ -1,5 +1,7 @@
 .title {
     padding-top: 6rem;
+    background-color: rgb(75, 73, 73);
+    height: 100vh;
 }
 
 .options {
@@ -11,4 +13,8 @@
 
 .options:hover {
     opacity: 0.6;
+}
+
+.options a {
+    color: white;
 }
