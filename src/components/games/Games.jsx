@@ -27,6 +27,16 @@ const Games = () => {
             <a href="https://play.unity.com/mg/other/crazy-labyrinth-team-t"  className='btn btn-primary' target='_blank'>Play</a>
           </div>
         </article>
+
+        <article className='games_item'>
+          <div className='games_img'>
+            <img alt=''/>
+          </div>
+          <h3> Coming Soon...</h3>
+          <div className='games_item-cta'>
+            
+          </div>
+        </article>
       </div>
     </section>
   )

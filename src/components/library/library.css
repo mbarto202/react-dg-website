@@ -8,3 +8,34 @@
     background-color: rgb(75, 73, 73);
     height: 100vh;
 }
+
+.scen_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.scen_item {
+    margin-top: 150px;
+    margin-left: 74px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    border: 1px solid transparent;
+    width: 30rem;
+    height: 30rem;
+}
+
+.scen_item-cta {
+    padding-top: 6rem;
+}
+
+.scen_img img{
+    border-radius: 0.4rem;
+    width: 28rem;
+}
+
+.scen_item h3 {
+    margin: 1.2rem 0 2rem;
+}
