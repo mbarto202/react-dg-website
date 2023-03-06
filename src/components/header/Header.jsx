@@ -12,6 +12,11 @@ const Header = () => {
   return (
     <h1 className='header'>
       Ydavi
+      <div className='login'>
+        <a className='btn'>
+          Log in
+        </a>
+      </div>
       <div className='menu-icon' onClick={handleClick}>
         <FaBars className='FaBars'/>
       </div>

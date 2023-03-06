@@ -1,6 +1,5 @@
 h1.header {
     background-color: black;
-    color: white;
     padding-left: 70px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -9,10 +8,19 @@ h1.header {
 .menu-icon {
     display: inline;
     position: relative;
+    right: -100rem;
     top: 4px;
-    right: -105rem;
+    
 }
 
 .menu-icon:hover {
     opacity: 0.6;
+}
+
+.login {
+    display: inline;
+    font-size: large;
+    position: relative;
+    right: -98rem;
+    top: -6px;
 }
